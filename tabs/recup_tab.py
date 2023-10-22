@@ -117,6 +117,14 @@ def get_cryptos(col):
     # Default crypto is selected_symbols
     selected_symbols = ["BTCUSDT"]
 
+    # Define the custom CSS
+    custom_css = """
+    <style>
+    div[data-widget="st.multiselect"] .multiselect-container .selected {
+        color: white !important; /* Change the color to your desired value */
+    }
+    </style>
+    """
     # Sélection des symboles
     selected_symbols = col.multiselect("Sélectionnez des symboles", _SYMBOLS_, default=["BTCUSDT"])
 
