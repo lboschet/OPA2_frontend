@@ -13,17 +13,21 @@
 
 ## git 
 
-1) Add
+1) Remote add
+
+    > git remote add origin https://github.com/OWNER/REPOSITORY.git
+
+2) Add
 
     > (opa2) % git add tabs/recup_tab.py                   
 
-2) Commit 
+3) Commit 
 
     > (opa2) %  git commit -m "small addon in recup_tab.py"  
     [master 78d608b] small addon in recup_tab.py
     1 file changed, 1 insertion(+), 1 deletion(-)
 
-3)  Push
+4) Push
 
     > (opa2) % git push -u origin master                    
     Énumération des objets: 7, fait.
