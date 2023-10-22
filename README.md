@@ -15,7 +15,7 @@
 
 1) Remote add
 
-    > git remote add origin https://github.com/OWNER/REPOSITORY.git
+    > % git remote add origin https://github.com/OWNER/REPOSITORY.git
 
 2) Add
 
