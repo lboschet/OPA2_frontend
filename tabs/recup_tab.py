@@ -231,7 +231,7 @@ def do_retrieval(freq, cryptos, load_mode, clean_mode, debut, fin):
     st.write("\tMode de récupération:", load_mode)
     st.write("\tNettoyage des données precedentes:", clean_mode)
     st.write("\tDates de debut:", debut)
-    st.write("\tDates de debut:", fin)
+    st.write("\tDates de fin:", fin)
     st.write()
 
     return
@@ -270,7 +270,7 @@ def run():
     # Intervalle de temps pour le chargement (date_début, date_fin)
     t_debut , t_fin = get_date_interval(col2)
     print("Dates de debut: ", t_debut)
-    print("Dates de debut: ", t_fin)
+    print("Dates de fin: ", t_fin)
     
     # Creation du bouton de lancement de récupération
     st.subheader(" ")
