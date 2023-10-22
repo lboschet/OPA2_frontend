@@ -27,7 +27,7 @@ def run():
     components.html("""<hr style="height:10px;border:none;color:#333;background-color:#514f51;" /> """)
 
     # Recuperer le descriptif du projet au formay-t Markdown dans le repertoire /docs
-    intro_markdown = read_markdown_file("../docs/opa2_step1_extract_datas.md")
+    intro_markdown = read_markdown_file("docs/opa2_step1_extract_datas.md")
 
     # Afficher le decriptif du projet (markdown)
     st.markdown(intro_markdown, unsafe_allow_html=True)
