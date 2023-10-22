@@ -215,16 +215,16 @@ def do_retrieval(freq, cryptos, load_mode, clean_mode, debut, fin):
     print("\tDates de debut:", fin)
     print()
 
-    st.write(()
-    st.write(("*** CALLBACK DO_RETRIEVAL ***")
-    st.write(("\tChargement des données lancé à:", date_du_jour)
-    st.write(("\tFrequence de récupération:", freq)
-    st.write(("\tCryptos selectionnées:", cryptos)
-    st.write(("\tMode de récupération:", load_mode)
-    st.write(("\tNettoyage des données precedentes:", clean_mode)
-    st.write(("\tDates de debut:", debut)
-    st.write(("\tDates de debut:", fin)
-    st.write(()
+    st.write()
+    st.write("*** CALLBACK DO_RETRIEVAL ***")
+    st.write("\tChargement des données lancé à:", date_du_jour)
+    st.write("\tFrequence de récupération:", freq)
+    st.write("\tCryptos selectionnées:", cryptos)
+    st.write("\tMode de récupération:", load_mode)
+    st.write("\tNettoyage des données precedentes:", clean_mode)
+    st.write("\tDates de debut:", debut)
+    st.write("\tDates de debut:", fin)
+    st.write()
 
     return
 
