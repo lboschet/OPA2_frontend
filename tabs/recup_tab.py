@@ -274,7 +274,7 @@ def run():
     
     # Creation du bouton de lancement de récupération
     st.subheader(" ")
-    st.subheader("Cliquer pour lancer le chargement ? ")
+    st.subheader("Lancer le chargement:")
 
     #selected_start = st.button('DEMARRER', key='start_button', type="primary", help='Cliquez pour demarrer le chargement des données', \
     #                            use_container_width=True, on_click=do_retrieval(sel_freq, sel_cryptos, sel_mode, sel_clean, t_debut, t_fin))
